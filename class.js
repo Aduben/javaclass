@@ -133,12 +133,12 @@ let myObject = {
 
 console.log(myObject); // Output: { name: "John", age: 25 }
 
-// Adding a new property dynamically
+
 
 myObject.address = "123 Main St";
-console.log(myObject); // Output: { name: "John", age: 25, address: "123 Main St" }
+console.log(myObject); // Output: { name: "John", age: 25, address: "123 Main St" }              // Adding a new property dynamically
 
-// Removing a property dynamically
 
-delete myObject.age;
+
+delete myObject.age;                                                                             // Removing a property dynamically
 console.log(myObject); // Output: { name: "John", address: "123 Main S                                          
